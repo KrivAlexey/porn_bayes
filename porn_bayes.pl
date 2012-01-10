@@ -2,9 +2,9 @@
 
 use LWP::UserAgent;
 use HTML::Parser;
-use YAML::Tiny qw 'DumpFile LoadFile';
+use YAML::Tiny qw (DumpFile LoadFile);
 use utf8;
-use List::MoreUtils qw 'uniq';
+use List::MoreUtils qw (uniq);
 use strict;
 use open qw(:std :utf8);
 use Encode;
