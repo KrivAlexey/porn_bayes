@@ -136,26 +136,4 @@ sub check_site {
     }
     return $a/($a + $b);
 
-    #my $file_name = 'stat.yml';
-    #my $old_stat = LoadFile($file_name);
-    #my $probability = 0;
-    #my @a;
-    #print join " ", @words;
-    #foreach (@words){
-        #if ($$old_stat{$_ } > 0){
-            #print "$_ :  $$old_stat{$_}\n";
-            #push(@a, $$old_stat{$_});
-        #}
-    #}
-    #my $a = 1;
-    #my $b = 1;
-    #my $qop = $$old_stat{'quantityOfpages'};
-    ##print join "\n",@a;
-    #foreach (@a){
-        #$a *= $_;
-        #print "$_    $a\n";
-        #$b *= $qop - $_;
-    #}
-    #print "\n$a $b\n";
-    #return $a/($a + $b);
 } ## --- end sub check_site
